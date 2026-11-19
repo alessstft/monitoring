@@ -1,6 +1,60 @@
 {
   "history": [
     {
+      "time": "2026-11-19T17:06:54.179Z",
+      "checks": [
+        {
+          "id": "group-main",
+          "ok": true,
+          "status": 200,
+          "ms": 449,
+          "error": ""
+        },
+        {
+          "id": "group-monitoring",
+          "ok": true,
+          "status": 200,
+          "ms": 115,
+          "error": ""
+        },
+        {
+          "id": "group-pptx",
+          "ok": true,
+          "status": 200,
+          "ms": 276,
+          "error": ""
+        },
+        {
+          "id": "group-houses",
+          "ok": true,
+          "status": 200,
+          "ms": 118,
+          "error": ""
+        },
+        {
+          "id": "course-git",
+          "ok": true,
+          "status": 200,
+          "ms": 245,
+          "error": ""
+        },
+        {
+          "id": "course-mongodb",
+          "ok": true,
+          "status": 200,
+          "ms": 128,
+          "error": ""
+        },
+        {
+          "id": "test-ok",
+          "ok": true,
+          "status": 200,
+          "ms": 702,
+          "error": ""
+        }
+      ]
+    },
+    {
       "time": "2026-11-19T16:37:22.583Z",
       "checks": [
         {
