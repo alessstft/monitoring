@@ -1,4 +1,4 @@
-import { NavLink, Route, Routes } from 'react-router'
+import { NavLink, Route, Routes, useLocation } from 'react-router'
 import { useMonitoring } from './monitoring'
 import SitesPage from './pages/SitesPage'
 import SitePage from './pages/SitePage'
@@ -7,6 +7,7 @@ import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
   const { history, loading, error } = useMonitoring()
+  const { pathname } = useLocation()
   const last = history[0]
 
   return (
@@ -19,7 +20,12 @@ function App() {
             : `Последняя проверка: ${new Date(last.time).toLocaleString('ru')}`}
         </p>
         <nav className="nav">
-          <NavLink to="/">Сайты</NavLink>
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive || pathname.startsWith('/site') ? 'active' : '')}
+          >
+            Сайты
+          </NavLink>
           <NavLink to="/about">О проверке</NavLink>
         </nav>
       </header>
