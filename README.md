@@ -75,11 +75,9 @@ node scripts/check.mjs
 Сайт: https://alessstft.github.io/monitoring/
 Бот оповещений: https://t.me/FORREACT_bot
 
-1. Settings → Pages → Source: **GitHub Actions**.
-2. Settings → Secrets and variables → Actions → два секрета:
-   `TELEGRAM_TOKEN` и `TELEGRAM_CHAT_ID`.
-3. Actions → «Ночная проверка сайтов» → **Run workflow**. После зелёной
-   галочки открыть адрес из задания `deploy`.
+ТГ-бот фото:
+![alt text](<Снимок экрана 2026-11-19 192137.png>)
+![alt text](image-1.png)
 
 Секреты в коде и в истории Git не встречаются, в журнале запуска GitHub
 показывает их как `***`.
