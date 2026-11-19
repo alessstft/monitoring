@@ -5,5 +5,5 @@
   { "id": "group-houses", "name": "Дома Санкт-Петербурга", "url": "https://alessstft.github.io/spb-houses/" },
   { "id": "course-git", "name": "Справочник по Git и GitHub", "url": "https://maximbytecamp.github.io/git_github_makarov/" },
   { "id": "course-mongodb", "name": "Справочник по MongoDB", "url": "https://maximbytecamp.github.io/mongodb_theory_makarov/" },
-  { "id": "test-ok", "name": "Проверка оповещения", "url": "https://t.me/FORREACT_bot" }
+  { "id": "test-ok", "name": "Проверка оповещения", "url": "https://alessstft.github.io/monitoring-test/" }
 ]
